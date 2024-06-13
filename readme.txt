@@ -91,3 +91,50 @@ Images: Enhance images with responsive image classes and utilities for alignment
 Breadcrumbs: Display hierarchical navigation paths to help users understand their location within a website.
 
 Jumbotron: Create prominent, full-width container components for showcasing key content or messages.
+
+**********************
+
+jQuery offers a variety of methods to simplify DOM manipulation, event handling, AJAX requests, and more. Here are some commonly used jQuery methods:
+
+DOM Manipulation:
+
+$(selector): Selects elements based on the provided selector.
+.text(): Get or set the text content of elements.
+.html(): Get or set the HTML content of elements.
+.val(): Get or set the value of form elements.
+.addClass(): Add one or more classes to elements.
+.removeClass(): Remove one or more classes from elements.
+.toggleClass(): Toggle one or more classes on elements.
+Event Handling:
+
+.click(): Attach a function to the click event of elements.
+.change(): Attach a function to the change event of form elements.
+.submit(): Attach a function to the submit event of forms.
+.keydown(), .keyup(), .keypress(): Attach functions to keyboard events.
+.mouseenter(), .mouseleave(): Attach functions to mouse enter and mouse leave events.
+.on(): Attach event handlers for one or more events to elements.
+CSS Manipulation:
+
+.css(): Get or set CSS properties of elements.
+.show(), .hide(), .toggle(): Show, hide, or toggle the visibility of elements.
+.fadeIn(), .fadeOut(), .fadeToggle(): Fade in, fade out, or toggle the opacity of elements.
+Traversal:
+
+.parent(), .children(): Traverse up and down the DOM tree.
+.find(): Find descendant elements matching a selector.
+.siblings(): Get the siblings of elements.
+.next(), .prev(): Get the next or previous sibling of elements.
+AJAX:
+
+$.ajax(): Perform an asynchronous HTTP (Ajax) request.
+.load(): Load HTML content from a server and inject it into elements.
+.get(), .post(): Perform GET or POST requests.
+Utilities:
+
+$.each(): Iterate over arrays and objects.
+$.trim(): Remove whitespace from the beginning and end of a string.
+$.extend(): Merge the contents of two or more objects together.
+Effects:
+
+.slideDown(), .slideUp(), .slideToggle(): Slide elements up or down to show or hide them.
+.animate(): Perform custom animations on elements.
